@@ -1,6 +1,6 @@
 
 class Store {
-     String brand;
+    String brand;
     int price;
     static String category;
 
@@ -27,7 +27,11 @@ class Store {
 public class storeJava{
     public static void main(String[] args) {
         
-        
+        Store obj1 = new Store();
+        obj1.brand = "Samsung";
+        obj1.price = 1700;
+        obj1.displayDetails();
+        obj1.usageGuide();
 
     }
 
